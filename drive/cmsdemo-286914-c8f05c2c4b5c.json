@@ -1,0 +1,17 @@
+/*
+// video ilustrativo para crear la credencial https://www.youtube.com/watch?v=zI0obqa8r80
+// lisnk para crear la credencial es necesario iniciar sesion en Gmail https://console.cloud.google.com/apis/credentials?project=cmsdemo-286914
+// los datos siguientes son refenciales es posible que no le funcione
+*/
+{
+  "type": "service_account",
+  "project_id": "cmsdemo-286914",
+  "private_key_id": "c8f05c2c4b5cd602ebd80a84ff0ce857909ae65d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDX9Zkq6IJt2GPM\nX9gOo24opAf/nJRZOgAzXBzfUrXRZL6p3Ur304L3iiG9M9mf3LoAp7/yO027RFpp\n38NiZSYrQy3VtGza89Dp0HGCmlG43ce94Jn+rjIh73n5RAPjjA5yJXLFCjcV4VKe\nIUyt2L9wPcJoOadWJhfHTmfYy3nzuMOlCLtfG2JRovFdb+UimCcMVVcrmahXPhyp\nBy06lllxdnhSYQ2CKoMfWpucoXzxcj7h1q0lu6UP17XneNzaC/DxT25kqFQ/QVlI\naFUxBs+Et3JoTzlq5t5BA6PTFLuI80kloFMminWxHTB60mnOGY5FfMFQ370MI4R4\nEDfzmUuTAgMBAAECggEAFSExiEvRhYY+u96QzCkPYsIrcJLVLPNXO681uZMx7B5L\ngJRnSZItstYwCn89OfGMI8ffju36FmpP3yLTaH6PDa9eZHw2JMIZ3ONvh7pdNPvc\nfczkJFGbR0vs09R+ZBzuLBrsr/yzR3Yq8c/X3Pz9CUu+brL2/Ww8UI+j6q4V7SBa\nLCVpNdr7Gbn0twswJ/PNmJ125qENoekhwVznGLBY1WQbj/T+kH84JaAiMfEYUKms\nGYmFPpuqZjJ8Zr1fvIOWbLY0izE/mvJ+CR/ei8r/ogHLYw1MIAKJyLScD+aXwv2e\nU+5WyhvgAXAKOtiW3d2YXcbNGtTKWEVH5LaCAiYlCQKBgQDsxi3b5Izh/ktIBiV2\npfbLGGKSdIPepmxfY7v9uJ+R4/aBpQydV5aQPKoWzv8ppy8S4cvHBE4wlYsY3pWO\n3G5mcRwqQXcokNdzzIkBTz68K1KMLIEe67SpwWX9S83hfhOFtjHxLKsZ9TERbbMH\nr13Un6kPCm+QUA98x1EhIE7qjwKBgQDpfr4rXxTUunauQnZbGifZUC+huulhzVu6\nyqc1MXOj/bJC9ghxMVVtG1KFaDc/SCu++81F7UQ+yRsLQW3afs3eCqOgMa9MXPkW\nkM3k4hAvYi8tkVnEJSpK2qiVPKowGFheZ+gnXannVeADgBYwNHs7GR7WgDRKND16\n/7U3EtfgvQKBgG4QngbHEpqHfHVJriaedb/pYQEVuqtIj74z/ZKvPTYzU0bm85s8\nuRfpq2OY69JwDhjn77NfE/3Ptm5kIf/cBlIGqIIYFo0773u8C8AZF1+ff+r7UTaP\neVckOQXrNBRraCXTERo8mnkhmqKwbPXYlnSdl5gPUNcz8E8f1F3ix+yPAoGAY8tB\np/PJSWowUyYgw6sYIO7+jJcALEbCz8DRWhC6pfpF+AyDay10n18wE8iI5EkKOWQR\nRbO0mUkGf/cE5n+PqTjO2iaiD3clFpnpBcwAst+53jXjMcvYmYl+x9nXuxqMmjy6\noiiL901iotxZn1yu1oFUBsVgk95j8G/dmZ46GdkCgYBz2SMFjrxfZ4Yep5YMcjaZ\nAUqjk2PRAfoN+o2AqfrSUvkhGNHqoC06Y6iJdirC4dwApNe/G27vuPFmlnu3b/b5\nFSWoWoZgujA+0mPThnQepLSht5tjCvs0aF6b7fzeeaVGqj/NCxsUKQviPP3lPvax\n+mC/5weFk3h8q3SJViAh6A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "cms-158@cmsdemo-286914.iam.gserviceaccount.com",
+  "client_id": "101226919107743066168",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cms-158%40cmsdemo-286914.iam.gserviceaccount.com"
+}
