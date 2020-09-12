@@ -1,6 +1,6 @@
 <?php
 $servidor = 'localhost';
-$bd = 'defendyo_defendyourpolice';
+$bd = 'cms_ingles';
 $usuario = 'root';
 $contrasenia = '';
 ?>

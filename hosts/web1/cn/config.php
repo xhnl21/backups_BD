@@ -1,6 +1,6 @@
 <?php
 $servidor = 'localhost';
-$bd = 'demo';
+$bd = 'cms_ingles';
 $usuario = 'root';
 $contrasenia = '';
 ?>

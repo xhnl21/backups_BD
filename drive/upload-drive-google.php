@@ -18,7 +18,7 @@
 include_once 'google-api-php-client-master/vendor/autoload.php';
 
 //configurar variable de entorno
-putenv('GOOGLE_APPLICATION_CREDENTIALS=cmsdemo-286914-c8f05c2c4b5c.json');
+putenv('GOOGLE_APPLICATION_CREDENTIALS=cmsdemo.json');
 
 $client = new Google_Client();
 $client->useApplicationDefaultCredentials();
@@ -40,7 +40,8 @@ try{
 	$mime_type=finfo_file($finfo, $file_path);
 	// NOTA: al crear la carpeta se debe afiliar el correo de servicio y se debe usar parte del link ejemplo  https://drive.google.com/drive/folders/1ZuFtYAw81RsLL9hUKiBS1r-JzgmPvf5z?usp=sharing cuyo id es ->> 1ZuFtYAw81RsLL9hUKiBS1r-JzgmPvf5z parte de la url que se usa para compartir
 	//id de la carpeta donde hemos dado el permiso a la cuenta de servicio 
-	$file->setParents(array("1ZuFtYAw81RsLL9hUKiBS1r-JzgmPvf5z"));
+	// $file->setParents(array("1eKLsWa9jMGdZgMnDCl1p5-1LZw90GEH0","1-T5lGybHxUsAmtFJhIfA-lkqEkNsYOEh"));
+	$file->setParents(array($keys));
 	$file->setDescription('archivo subido desde php');
 	$file->setMimeType($mime_type);
 
